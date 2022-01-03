@@ -1,8 +1,8 @@
 module.exports = {
   mode: 'jit',
-  purge: [
+  content: [
     './pages/**/*.{js,jsx,ts,tsx}',
-    './app/**/*.{js,jsx,ts,tsx}',
+    './src/**/*.{js,jsx,ts,tsx}',
     './public/index.html',
   ],
   darkMode: 'class', // or 'media' or 'class'
